@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>UPLOAD PICS</title>
+
+<link rel="stylesheet" type="text/css" href="{{url_for('static',
+filename='uploadStyle.css')}}"/>
+
+<script type = "text/javascript" src = "{{ url_for('static',
+filename = 'push.js') }}" ></script>
+
+</head>
+<body>
+
+<h1>Welcome to the deep learning API</h1>
+<p>		Please upload a picture you wish to classify</p>
+
+<input type="file" onchange="previewFile()"><br>
+<img src="" height="200" alt="Image preview...">
+
+</body>
+</html>
